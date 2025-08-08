@@ -1,32 +1,8 @@
-.odd{
-    color: yellowgreen;
+h1{
+    text-shadow: 15px 8px;
+    /*first value represents horizontal and second value represents vertical*/
 }
 
-.even{
-    color: blue;
+h2{
+    text-shadow: 15px 3px 8px red;
 }
-
-#p1{
-    background-color: aqua;
-    font-size: 1.5rem;
-    border: 2px solid yellow;
-}
-
-#p2{
-    background-color: blueviolet;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 2px dotted green;
-}
-
-#p3{
-    background-color: brown;
-    font-style: italic;
-    border: 2px dashed blue;
-}
-
-#p4{
-    background-color: aquamarine;
-    border: 2px groove green;
-    border-radius: 10px;
-}
-

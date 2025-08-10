@@ -5,4 +5,12 @@ h1{
 
 h2{
     text-shadow: 15px 3px 8px red;
+    /* Third value represents blur and red represents its color */
+}
+
+#box1{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 3px 3px 7px;
 }

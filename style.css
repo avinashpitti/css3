@@ -1,24 +1,15 @@
 body{
-    margin: 0;
+    border: 3px solid green;
+   display: flow-root;
 }
 
-.box{
-    border: 5px solid;
-    font-size: 5em;
-    height: 250px;
-    width: 250px;
+#img1{
+    float: left;
+    /* Float takes content to next to the  image*/
+    margin-right: 8px;
 }
 
-#box1{
-    background-color: red;
-    margin-left: auto;
-    /* It takes to the right*/
-}
-
-#box2{
-    background-color: blue;
-    margin:auto ;
-    /* It takes to the middle of the webpage 
-       If you want you can give margin-left,right,top,bottom separately.    
-    */
+#img2{
+    height: 150px;
+    /* here we haven't given any float value so content is down to the image */
 }

@@ -1,15 +1,26 @@
-body{
-    border: 3px solid green;
-   display: flow-root;
-}
-
-#img1{
-    float: left;
-    /* Float takes content to next to the  image*/
-    margin-right: 8px;
-}
-
-#img2{
+div{
+    background-color: palevioletred;
     height: 150px;
-    /* here we haven't given any float value so content is down to the image */
+    width: 150px;
+    text-align: center;
+}
+
+#span1{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    display: inline;
+    text-align: center;
+}
+
+#span2{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    display: block;
+    text-align: center;
+}
+
+p{
+    background-color: brown;
 }

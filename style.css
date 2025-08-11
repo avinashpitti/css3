@@ -1,26 +1,16 @@
-div{
-    background-color: palevioletred;
-    height: 150px;
-    width: 150px;
-    text-align: center;
-}
-
-#span1{
+#box1{
     background-color: aqua;
     height: 150px;
     width: 150px;
-    display: inline;
-    text-align: center;
+    position: fixed;
 }
 
-#span2{
-    background-color: aqua;
-    height: 150px;
-    width: 150px;
-    display: block;
+#box2{
+    background-color: rebeccapurple;
+    height: 60px;
+    width: 60px;
     text-align: center;
-}
-
-p{
-    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }

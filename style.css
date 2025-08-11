@@ -1,34 +1,27 @@
-a:link,a:visited{
-    color: rgb(206, 206, 51);
-    font-size: 1.4em;
+h1::first-letter{
+    background-color: yellowgreen;
+    font-size: 3em;
 }
 
-a:hover{
-    color: green;
-}
-
-a:active{
-    color: wheat;
+p::first-line{
+    background-color: blueviolet;
     font-size: 2em;
 }
 
-ul{
-    font-size: 1.8em;
-}
-
-li{
-    margin-bottom: 5px;
-}
-
-li:hover{
-    background-color: red;
-}
-
-li:not(:hover){
+p::selection{
+    color: green;
     background-color: gray;
 }
 
-/* here you can set any number like 1 2 3 2n 3n 3n+1 3n+3 here +1 and +2 etc are offsets) */
-li:nth-child(3n+2){
-    background-color: blueviolet;
+#Apple::after{
+    /* To get emojis click windows + ; */
+    content: "🍏";
+}
+
+#Orange::before{
+    content: "🍊";
+}
+
+#Banana::before{
+    content: "🍌";
 }

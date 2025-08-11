@@ -1,20 +1,17 @@
-#box1{
-    background-color: aqua;
-    height: 150px;
-    width: 150px;
-    position: fixed;
-    top: 100px;
-    left: 50px;
+#container{
+    border: 2px solid;
 }
 
-#box2{
+/*
+combinators
+    descendant: space
+    child combinator(>)
+    general sibling combinator(~)
+    adjacent sibling combinator(+)
+    note : change those symbols below in place of + you can see how it works.
+
+*/
+
+#container + p{
     background-color: rebeccapurple;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50px;
-    left: 50px;
 }

@@ -1,21 +1,54 @@
-.pagination{
+*{
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    background-color: violet;
+}
+
+#navi{
+    background-color: aqua;
+    padding: 6px 40px;
     text-align: center;
 }
 
-.pagination a{
-    color: black;
+#navi a{
     text-decoration: none;
-    padding: 8px 15px;
-    display: inline-block;
+
 }
 
-.pagination a.active{
-    background-color: lightblue;
-    font-weight: bold;
-    border-radius: 8px;
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    
 }
 
-.pagination a:hover:not(.active){
-    background-color: gray;
-    border-radius: 5px;
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 40%;
+    float: left;
+}
+
+h3{
+    text-align: center;
+    color: rgb(122, 93, 93);
+}
+
+#foot{
+    background-color: magenta;
+    text-align: center;
+    clear: both;
+}
+
+@media screen and (max-width:600px){
+    aside,section,article{
+        width: 100%;
+    }
 }

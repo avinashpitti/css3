@@ -1,27 +1,21 @@
-h1::first-letter{
-    background-color: yellowgreen;
-    font-size: 3em;
+.pagination{
+    text-align: center;
 }
 
-p::first-line{
-    background-color: blueviolet;
-    font-size: 2em;
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
 }
 
-p::selection{
-    color: green;
+.pagination a.active{
+    background-color: lightblue;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.pagination a:hover:not(.active){
     background-color: gray;
-}
-
-#Apple::after{
-    /* To get emojis click windows + ; */
-    content: "🍏";
-}
-
-#Orange::before{
-    content: "🍊";
-}
-
-#Banana::before{
-    content: "🍌";
+    border-radius: 5px;
 }
